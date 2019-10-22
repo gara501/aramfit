@@ -20,3 +20,12 @@
 .App-link {
   color: #09d3ac;
 }
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}

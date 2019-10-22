@@ -19,3 +19,10 @@
   justify-content: flex-start;
   width: 50%;
 }
+
+.menu--button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

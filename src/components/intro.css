@@ -1,0 +1,13 @@
+.plan--intro {
+  height: 400px;
+}
+
+.underline {
+  display: inline-block;
+  border-bottom: 2px solid var(--picton-color);
+  padding: 10px 0;
+}
+.subsection--image {
+  height: 300px;
+  width: 100%;
+}

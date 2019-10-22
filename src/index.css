@@ -1,8 +1,15 @@
+:root {
+  --white-color: #fff;
+  --azure-color: #008DFF;
+  --charcoal-color: #383B53;
+  --picton-color: #41BCFF;
+  --lightblue-color: #ADD7F6;
+  --ghostwhite-color: #FCF7FF;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +17,106 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.section {
+  margin: 50px 0;
+  text-align: left;
+}
+
+.section .block {
+  padding: 0 20px;
+}
+
+.section--intro {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  height: 200px;
+  justify-content: center;
+  width: 100%;
+}
+
+.section--intro-1 {
+  background: url('/images/bg1.jpg') no-repeat;
+  background-size: cover;
+}
+
+.section--intro-2 {
+  background: url('/images/bg2.jpg') no-repeat;
+  background-size: cover;
+}
+
+.section--intro-3 {
+  background: url('/images/bg3.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section--intro-4 {
+  background: url('/images/bg4.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section--intro-5 {
+  background: url('/images/bg5.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.base--list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.base--list-number {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.base--list li,
+.base--list-number li {
+  margin: 10px 0;
+}
+
+.section--intro-block {
+  color: var(--white-color);
+  text-shadow: #000 3px 2px 0;
+  border-bottom: 2px solid var(--picton-color);
 }
